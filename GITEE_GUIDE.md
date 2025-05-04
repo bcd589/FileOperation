@@ -6,6 +6,10 @@
 
 1. 确保您已经安装了 Git。如果没有，请从 [Git 官网](https://git-scm.com/downloads) 下载并安装。
 2. 在 Gitee 上注册账号并登录。
+3. 对于GitHub推送，建议配置SSH密钥认证：
+   - 检查是否已有SSH密钥：`ls -la ~/.ssh`
+   - 如果没有密钥，生成新的ED25519密钥：`ssh-keygen -t ed25519 -C "your_email@example.com"`
+   - 将公钥(~/.ssh/id_ed25519.pub)内容添加到GitHub账户的SSH密钥设置中
 
 ## 创建 Gitee 仓库
 
@@ -45,15 +49,20 @@
 5. 添加远程仓库：
    ```
    git remote add origin https://gitee.com/您的用户名/FileOperation.git
+   git remote add github https://github.com/您的用户名/FileOperation.git
    ```
-   注意：请将 "您的用户名" 替换为您的 Gitee 用户名。
+   注意：请将 "您的用户名" 替换为您的 Gitee 和 GitHub 用户名。
 
 6. 推送代码到远程仓库：
    ```
    git push -u origin master
+   git push -u github master
    ```
 
-7. 根据提示输入您的 Gitee 用户名和密码。
+7. 对于GitHub推送，如果使用SSH方式，请确保：
+   - 已添加SSH密钥到GitHub账户
+   - 使用SSH格式的远程仓库地址：`git@github.com:您的用户名/FileOperation.git`
+   或者根据提示输入您的 Gitee 和 GitHub 用户名和密码。
 
 ### 方法二：使用 Gitee 客户端
 
@@ -71,12 +80,18 @@
 
 ## 后续维护
 
-每次对项目进行更改后，您可以使用以下命令将更改推送到 Gitee：
+每次对项目进行更改后，您可以使用以下命令将更改推送到 Gitee 和 GitHub：
 
 ```
 git add .
 git commit -m "更新说明：简要描述您的更改"
-git push
+git push origin master
+git push github master
+```
+
+注意：请确保已添加GitHub远程仓库，命令如下：
+```
+git remote add github https://github.com/您的用户名/FileOperation.git
 ```
 
 ## 常见问题

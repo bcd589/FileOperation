@@ -62,22 +62,7 @@
 4. 推送到分支 (`git push origin feature/AmazingFeature`)
 5. 开启一个 Pull Request
 
-## 如何使用 Gitee 托管本项目
 
-1. 在 Gitee 上注册账号并登录
-2. 点击右上角的 "+" 按钮，选择 "新建仓库"
-3. 填写仓库名称（如 "FileOperation"）
-4. 添加项目描述
-5. 选择开源协议为 MIT
-6. 创建仓库
-7. 在本地项目目录中执行以下命令：
-   ```
-   git init
-   git add .
-   git commit -m "初始提交"
-   git remote add origin https://gitee.com/您的用户名/FileOperation.git
-   git push -u origin master
-   ```
 
 ## 许可证
 
