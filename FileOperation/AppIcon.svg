@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景圆形 -->
+  <circle cx="128" cy="128" r="120" fill="#2196F3" />
+  
+  <!-- 文件夹图标 -->
+  <path d="M64 80V64C64 59.6 67.6 56 72 56H112L128 72H184C188.4 72 192 75.6 192 80V96H64V80Z" fill="#FFC107" />
+  <path d="M64 96V176C64 180.4 67.6 184 72 184H184C188.4 184 192 180.4 192 176V96H64Z" fill="#FFECB3" />
+  
+  <!-- 文件图标 -->
+  <path d="M140 120H116C113.8 120 112 121.8 112 124V168C112 170.2 113.8 172 116 172H164C166.2 172 168 170.2 168 168V148C168 145.8 166.2 144 164 144H144V124C144 121.8 142.2 120 140 120Z" fill="white" />
+  <path d="M144 120V140C144 142.2 145.8 144 148 144H168L144 120Z" fill="#E0E0E0" />
+  
+  <!-- 箭头图标 -->
+  <path d="M96 136L112 152L96 168" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

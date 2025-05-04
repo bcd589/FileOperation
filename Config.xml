@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Configuration>
+    <Id>1</Id>
+    <SourcePath>D:\Users\anshaofeng\Downloads</SourcePath>
+    <TargetPath>E:\新建文件夹</TargetPath>
+    <Extensions>
+      <Extension>mp4</Extension>
+      <Extension>avi</Extension>
+      <Extension>mkv</Extension>
+      <Extension>mov</Extension>
+      <Extension>wmv</Extension>
+      <Extension>flv</Extension>
+      <Extension>webm</Extension>
+      <Extension>m4v</Extension>
+      <Extension>mpg</Extension>
+      <Extension>mpeg</Extension>
+      <Extension>3gp</Extension>
+      <Extension>ts</Extension>
+      <Extension>vob</Extension>
+    </Extensions>
+    <CreateTime>2025-05-03T15:45:26.0064924+08:00</CreateTime>
+  </Configuration>
+</ArrayOfConfiguration>
